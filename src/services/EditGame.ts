@@ -5,7 +5,7 @@ const router = Router();
 
 router.put('/', async (req: Request, res: Response, next: NextFunction) => {
     try {
-        const { id } = req.body; // Corrigido para obter o ID do corpo da requisição
+        const { id } = req.body;
         const updatedGameData = req.body; 
 
 
